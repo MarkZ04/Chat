@@ -1,0 +1,13 @@
+main {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  background-color: brown;
+  height: 90%;
+  box-sizing: border-box;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
